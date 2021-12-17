@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Este archivo corresponde a la pagina de contacto
+Hacho por Carlos Gómez Sánchez -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <header>
+        <h1>Superdeportivos</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Pagina principal</a>
+        <a href="velocidad.html">Top speed</a>
+        <a id="active" href="contacto.html">Contacto</a>
+    </nav>
+
+    <section id="contactos2">
+        <article id="contactos">
+            <form action="http://www.institutos.es/para.php" method="POST">
+                <fieldset>
+                    <legend><h2>Contacta con nosotros</h2></legend>
+                    <label for="name">Nombre</label><br>
+                    <input type="text" id="name" name="nombre_usuario">
+                    <br><br>
+    
+                    <label for="mail">Correo electronico</label><br>
+                    <input type="email" id="mail" name="correo_usuario">
+                    <br><br>
+    
+                    <label for="msg">Mensaje</label><br>
+                    <textarea id="msg" name="mensaje_usuario"></textarea>
+                    <br><br>
+                    
+                    <input id="boton" type="submit" value="Enviar" />
+                </fieldset>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        Creado por Carlos Gómez Sánchez
+    </footer>
+</body>
+</html>

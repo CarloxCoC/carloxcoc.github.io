@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,600;1,500&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0px;
+    /* padding: 0px; */
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 20px;
+    background-color: black;
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+    font-weight: bolder;
+    background-image: url('img/bandera.png');
+}
+
+header h1{
+    font-family: 'Chakra Petch', sans-serif;
+    text-shadow: -2px 2px 0 #000,
+                    2px 2px 0 #000,
+                    2px -2px 0 #000,
+                    -2px -2px 0 #000;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+/* #articulo1{
+    background-color: #7ebdbb;
+}
+
+#articulo2{
+    background-color: #b6ebb3;
+}
+
+#articulo3{
+    background-color: orange;
+} */
+
+article:hover{
+    background-color:rgba(255, 0, 0, 0.822);
+    color: black;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    width: 80%;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+#url{
+    width: 80%;
+    padding: 0px;
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+
+h1{
+    text-align: center;
+}
+
+
+input[type=text]{
+    width: 20%;
+}
+
+input[type=email]{
+    width: 20%;
+}
+
+
+#contactos{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+}
+
+#speed:hover{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+#speedb:hover{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+#speedc:hover{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+#speed2{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+#speed3{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#speed4{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+#datos{
+    background-color: white;
+    width: 30%;
+    font-size: 30px;
+    padding: 40px;
+}
+
+#fotocoche{
+    padding: 10px;
+    text-align: left;
+    width: 90%;
+    background-color: white;
+}
+
+#titulo{
+    text-align: left;
+}
+
+ol{
+    font-size: 16px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+ul{
+    font-size: 20px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px
+}
+
+fieldset{
+    margin: 0 auto;
+    text-align: center;
+}
+  
+form{
+    text-align: center;
+}
+
+textarea{
+    resize: vertical;
+    height: 100px;
+    padding: 5px;
+    width: 20%;
+}
+
+
+#contacto{
+    font-size: 40px;
+}
+
+#boton{
+    font-size: 20px;
+    background-color:white;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+#active{
+    background-color:rgb(233, 59, 59);
+    font-weight: bold;
+}
+
+img{
+    width: 70%;
+    border-radius: 20px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    background-color: rgb(0, 0, 0);
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    flex: auto;
+}
+
+nav a:hover{
+    background-color: #555;
+    color: #CCC;
+}
+
+footer{
+    /* background-image: url('img/bandera.png'); */
+    background-color:black;
+    padding-top:300px;
+    color: red;
+}
